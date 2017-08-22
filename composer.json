@@ -13,8 +13,6 @@
         "laravel/framework": "5.4.*"
     },
     "autoload": {
-        "psr-4": {
-            "Kirillbdev\\LaraRepository\\": "LaraRepository/src/"
-        }
+        "classmap": [ "src/" ]
     }
 }
