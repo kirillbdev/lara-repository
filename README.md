@@ -11,7 +11,7 @@
 
 1. Используя composer пропишите команду:
 
-`composer require kirillbdev/lara-repository:dev-master`
+`composer require kirillbdev/lara-repository:0.*`
 
 2. В файде config/app.php в массиве провайдеров пропишите:
 
