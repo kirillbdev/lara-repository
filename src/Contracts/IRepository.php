@@ -45,7 +45,7 @@ interface IRepository
      *
      * @param \Kirillbdev\LaraRepository\Filter $filter
      * @param array $columns
-     * @return array, \Illuminate\Database\Eloquent\Model or null if empty
+     * @return \Illuminate\Database\Eloquent\Model or null if empty
      */
     public function first(Filter $filter, $columns = ['*']);
 
@@ -54,7 +54,7 @@ interface IRepository
      *
      * @param \Kirillbdev\LaraRepository\Filter $filter
      * @param array $columns
-     * @return array, \Illuminate\Database\Eloquent\Model or null if empty
+     * @return \Illuminate\Database\Eloquent\Model or null if empty
      */
     public function last(Filter $filter, $columns = ['*']);
 }
